@@ -1,0 +1,47 @@
+• mm: vmscan: set swappiness to 30
+
+• kernel: Fix cpufreq times memory leaks 
+
+• arm64: debug: Disable self-hosted debug by default
+
+• defconfig: rosemary: Disable AUDIT
+
+• selinux: don't require auditing 
+
+• selinux: Remove audit dependency 
+
+• drivers: mediatek-power: cpufreq: increase transition_latency to 2000 
+
+• [ALPS05464143] sched: Do not load balance if cpu was isolated
+
+• [ALPS05495903] sched:speed up forked tasks frequency ram up
+
+• sched/fair: Improve spreading of utilization 
+
+Meow 2.3-2 changelogs
+
+• mm: vmscan: set swappiness to 10 (probably overridden by init)
+
+• Makefile: Disable stack conservation for clang 
+
+• ANDROID: clang: update to 12.0.5
+
+ • binder_alloc: Disable debug logging by default 
+ 
+ • binderfs: use refcount for binder control devices too 
+ 
+ Meow 2.3-3 changelogs
+ 
+• Makefile: Optimize compiler specific instructions for coupled A76.A55 
+ 
+• sched: features: Disable EAS_PREFER_IDLE 
+ 
+• PM / suspend: Default to suspend-to-idle instead of deep suspend 
+ 
+• sched/idle: Move quiet_vmstate() into the NOHZ code. 
+  
+• scsi: ufs: disable clock scaling 
+  
+• mm: get 7% more pages in a pagevec 
+  
+• arm64: bpf: optimize modulo operation
